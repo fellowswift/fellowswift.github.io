@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Closures | Fellowswift]]></title>
+  <link href="http://fellowswift.github.io/blog/categories/closures/atom.xml" rel="self"/>
+  <link href="http://fellowswift.github.io/"/>
+  <updated>2016-01-13T23:42:57+01:00</updated>
+  <id>http://fellowswift.github.io/</id>
+  <author>
+    <name><![CDATA[Fellowswift]]></name>
+    <email><![CDATA[fellowswift@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The @noescape Tag Purpose and Why It Must Be Explicitly Applied]]></title>
+    <link href="http://fellowswift.github.io/blog/2016/01/13/the-at-noescape-tag-purpose-and-why-it-must-be-explicitly-applied/"/>
+    <updated>2016-01-13T21:49:49+01:00</updated>
+    <id>http://fellowswift.github.io/blog/2016/01/13/the-at-noescape-tag-purpose-and-why-it-must-be-explicitly-applied</id>
+    <content type="html"><![CDATA[<p>This week <a href="https://github.com/dcordero">I</a> had a very interesting discussion about <code>@autoclosures</code> and <code>@noescape</code> tags with <a href="https://github.com/phelgo">@phelgo</a>, as result of which we wondered the whys of some decision in the design of Swift&rsquo;s syntax.</p>
+
+<p>More specifically we are wondering why the tag <code>noescape</code> isn&rsquo;t automatically detected and it needs to be explicitly applied. Because&hellip; In fact, it is somehow detected at compile time, because trying to add the @noescape tag to a func with escaping closures results in an error.</p>
+
+<p>So the question is why&hellip; why noescape needs to be explicitly added and Apple did not create it to be automatically added when it is needed?</p>
+
+<p>[&hellip;]</p>
+]]></content>
+  </entry>
+  
+</feed>

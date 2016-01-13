@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://fellowswift.github.io/blog/2016/01/13/the-at-noescape-tag-purpose-and-why-it-must-be-explicitly-applied/</loc>
+    <lastmod>2016-01-13T21:49:49+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://fellowswift.github.io/blog/archives/</loc>
+  </url>
+  <url>
+    <loc>http://fellowswift.github.io/archives/</loc>
+  </url>
+  <url>
+    <loc>http://fellowswift.github.io/blog/</loc>
+  </url>
+  <url>
+    <loc>http://fellowswift.github.io/</loc>
+  </url>
+  <url>
+    <loc>http://fellowswift.github.io/blog/categories/closures/</loc>
+  </url>
+</urlset>
