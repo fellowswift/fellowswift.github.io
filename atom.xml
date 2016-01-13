@@ -4,7 +4,7 @@
   <title><![CDATA[Fellowswift]]></title>
   <link href="http://fellowswift.github.io/atom.xml" rel="self"/>
   <link href="http://fellowswift.github.io/"/>
-  <updated>2016-01-13T23:42:57+01:00</updated>
+  <updated>2016-01-14T00:14:24+01:00</updated>
   <id>http://fellowswift.github.io/</id>
   <author>
     <name><![CDATA[Fellowswift]]></name>
@@ -18,13 +18,13 @@
     <link href="http://fellowswift.github.io/blog/2016/01/13/the-at-noescape-tag-purpose-and-why-it-must-be-explicitly-applied/"/>
     <updated>2016-01-13T21:49:49+01:00</updated>
     <id>http://fellowswift.github.io/blog/2016/01/13/the-at-noescape-tag-purpose-and-why-it-must-be-explicitly-applied</id>
-    <content type="html"><![CDATA[<p>This week <a href="https://github.com/dcordero">I</a> had a very interesting discussion about <code>@autoclosures</code> and <code>@noescape</code> tags with <a href="https://github.com/phelgo">@phelgo</a>, as result of which we wondered the whys of some decision in the design of Swift&rsquo;s syntax.</p>
+    <content type="html"><![CDATA[<p>Earlier this week <a href="https://github.com/dcordero">I</a> had a very interesting discussion about <code>@autoclosures</code> and <code>@noescape</code> tags with <a href="https://github.com/phelgo">@phelgo</a>, as result of which we wondered the whys of some decision in the design of Swift&rsquo;s syntax.</p>
 
-<p>More specifically we are wondering why the tag <code>noescape</code> isn&rsquo;t automatically detected and it needs to be explicitly applied. Because&hellip; In fact, it is somehow detected at compile time, because trying to add the @noescape tag to a func with escaping closures results in an error.</p>
+<p>More specifically we wondered about why the tag <code>@noescape</code> isn&rsquo;t automatically detected and it needs to be explicitly applied. Because&hellip; In fact, it is somehow detected at compile time, because trying to add the @noescape tag to a func with escaping closures results in an compilation error.</p>
 
-<p>So the question is why&hellip; why noescape needs to be explicitly added and Apple did not create it to be automatically added when it is needed?</p>
+<p>So the question was why&hellip; why <code>@noescape</code> needs to be explicitly added and Apple did not create it to be automatically added when it is needed?</p>
 
-<p>[&hellip;]</p>
+<p>After some researches and different inputs&hellip;</p>
 ]]></content>
   </entry>
   
